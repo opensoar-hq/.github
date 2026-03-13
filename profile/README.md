@@ -1,0 +1,42 @@
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Website](https://img.shields.io/badge/website-opensoar.app-purple)](https://opensoar.app)
+
+# OpenSOAR
+
+**Open-source Security Orchestration, Automation & Response**
+
+A Python-native SOAR platform. Write playbooks in real Python — not YAML, not drag-and-drop. Self-hosted, community-driven, and AI-ready.
+
+```python
+@playbook(trigger="alert.created", conditions={"severity": "critical"})
+async def triage_critical(alert):
+    results = await asyncio.gather(
+        virustotal.lookup(alert.iocs),
+        abuseipdb.check(alert.source_ip),
+    )
+    if any(r.malicious for r in results):
+        await pagerduty.create_incident(alert)
+```
+
+## Repos
+
+| Repo | Description |
+|------|-------------|
+| [`opensoar`](https://github.com/opensoar-hq/opensoar) | Core platform — API, worker, alert ingestion, playbook engine |
+| [`opensoar-ui`](https://github.com/opensoar-hq/opensoar-ui) | React dashboard |
+| [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration authors |
+| [`opensoar-integrations`](https://github.com/opensoar-hq/opensoar-integrations) | Community integration packs (CrowdStrike, SentinelOne, Jira, etc.) |
+| [`opensoar-deploy`](https://github.com/opensoar-hq/opensoar-deploy) | Docker Compose configs for deployment |
+| [`opensoar-www`](https://github.com/opensoar-hq/opensoar-www) | Landing page (opensoar.app) |
+
+## Getting Started
+
+```bash
+git clone https://github.com/opensoar-hq/opensoar-deploy
+cp .env.example .env
+docker compose up -d
+```
+
+## Links
+
+[Website](https://opensoar.app) · [Live Demo](https://demo.opensoar.app) · [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
