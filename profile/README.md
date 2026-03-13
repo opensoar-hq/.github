@@ -29,7 +29,7 @@ async def triage_critical(alert):
 
 | Repo | Description |
 |------|-------------|
-| [`opensoar`](https://github.com/opensoar-hq/opensoar) | Core platform — API, worker, alert ingestion, playbook engine |
+| [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, worker, alert ingestion, playbook engine |
 | [`opensoar-ui`](https://github.com/opensoar-hq/opensoar-ui) | React dashboard |
 | [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration authors |
 | [`opensoar-integrations`](https://github.com/opensoar-hq/opensoar-integrations) | Community integration packs (CrowdStrike, SentinelOne, Jira, etc.) |
