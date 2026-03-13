@@ -1,9 +1,16 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/opensoar-hq/opensoar-www/main/public/logo.svg" width="64" height="62" alt="OpenSOAR">
+</p>
+
+<h1 align="center">OpenSOAR</h1>
+<p align="center"><strong>Open-source Security Orchestration, Automation & Response</strong></p>
+
+<p align="center">
+
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Website](https://img.shields.io/badge/website-opensoar.app-purple)](https://opensoar.app)
 
-# OpenSOAR
-
-**Open-source Security Orchestration, Automation & Response**
+</p>
 
 A Python-native SOAR platform. Write playbooks in real Python — not YAML, not drag-and-drop. Self-hosted, community-driven, and AI-ready.
 
