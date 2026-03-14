@@ -29,21 +29,18 @@ async def triage_critical(alert):
 
 | Repo | Description |
 |------|-------------|
-| [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, worker, alert ingestion, playbook engine |
-| [`opensoar-ui`](https://github.com/opensoar-hq/opensoar-ui) | React dashboard |
-| [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration authors |
+| [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, UI, worker, alert ingestion, playbook engine |
+| [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration & playbook authors |
 | [`opensoar-integrations`](https://github.com/opensoar-hq/opensoar-integrations) | Community integration packs (CrowdStrike, SentinelOne, Jira, etc.) |
 | [`opensoar-deploy`](https://github.com/opensoar-hq/opensoar-deploy) | Docker Compose configs for deployment |
-| [`opensoar-www`](https://github.com/opensoar-hq/opensoar-www) | Landing page (opensoar.app) |
+| [`opensoar-www`](https://github.com/opensoar-hq/opensoar-www) | Landing page — [opensoar.app](https://opensoar.app) |
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/opensoar-hq/opensoar-deploy
-cp .env.example .env
-docker compose up -d
+curl -fsSL https://opensoar.app/install.sh | sh
 ```
 
 ## Links
 
-[Website](https://opensoar.app) · [Live Demo](https://demo.opensoar.app) · [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+[Website](https://opensoar.app) · [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
