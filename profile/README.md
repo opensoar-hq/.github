@@ -12,7 +12,7 @@
 
 </p>
 
-A Python-native SOAR platform. Write playbooks in real Python — not YAML, not drag-and-drop. Self-hosted, community-driven, and AI-ready.
+A Python-native SOAR platform with built-in AI. Write playbooks in real Python — not YAML, not drag-and-drop. AI-powered triage, playbook generation, and alert correlation included free and open-source.
 
 ```python
 @playbook(trigger="alert.created", conditions={"severity": "critical"})
@@ -29,7 +29,7 @@ async def triage_critical(alert):
 
 | Repo | Description |
 |------|-------------|
-| [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, UI, worker, alert ingestion, playbook engine |
+| [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, UI, worker, playbook engine, AI triage |
 | [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration & playbook authors |
 | [`opensoar-integrations`](https://github.com/opensoar-hq/opensoar-integrations) | Community integration packs (CrowdStrike, SentinelOne, Jira, etc.) |
 | [`opensoar-deploy`](https://github.com/opensoar-hq/opensoar-deploy) | Docker Compose configs for deployment |
