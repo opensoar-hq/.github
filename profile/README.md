@@ -32,7 +32,6 @@ async def triage_critical(alert):
 | [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, UI, worker, playbook engine, AI triage |
 | [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration & playbook authors |
 | [`opensoar-integrations`](https://github.com/opensoar-hq/opensoar-integrations) | Community integration packs (CrowdStrike, SentinelOne, Jira, etc.) |
-| [`opensoar-deploy`](https://github.com/opensoar-hq/opensoar-deploy) | Docker Compose configs for deployment |
 | [`opensoar-www`](https://github.com/opensoar-hq/opensoar-www) | Landing page — [opensoar.app](https://opensoar.app) |
 
 ## Getting Started
