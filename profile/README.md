@@ -29,10 +29,10 @@ async def triage_critical(alert):
 
 | Repo | Description |
 |------|-------------|
-| [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, UI, worker, playbook engine, AI triage |
-| [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration & playbook authors |
-| [`opensoar-integrations`](https://github.com/opensoar-hq/opensoar-integrations) | Community integration packs (CrowdStrike, SentinelOne, Jira, etc.) |
-| [`opensoar-www`](https://github.com/opensoar-hq/opensoar-www) | Landing page — [opensoar.app](https://opensoar.app) |
+| <img height="14" src="https://raw.githubusercontent.com/opensoar-hq/.github/main/profile/assets/icons/server.png" alt="">&nbsp; [`opensoar-core`](https://github.com/opensoar-hq/opensoar-core) | Core platform — API, UI, worker, playbook engine, AI triage |
+| <img height="14" src="https://raw.githubusercontent.com/opensoar-hq/.github/main/profile/assets/icons/code.png" alt="">&nbsp; [`opensoar-sdk`](https://github.com/opensoar-hq/opensoar-sdk) | Python SDK for integration & playbook authors |
+| <img height="14" src="https://raw.githubusercontent.com/opensoar-hq/.github/main/profile/assets/icons/plug.png" alt="">&nbsp; [`opensoar-integrations`](https://github.com/opensoar-hq/opensoar-integrations) | Community integration packs (CrowdStrike, SentinelOne, Jira, etc.) |
+| <img height="14" src="https://raw.githubusercontent.com/opensoar-hq/.github/main/profile/assets/icons/globe.png" alt="">&nbsp; [`opensoar-www`](https://github.com/opensoar-hq/opensoar-www) | Landing page — [opensoar.app](https://opensoar.app) |
 
 ## Getting Started
 
